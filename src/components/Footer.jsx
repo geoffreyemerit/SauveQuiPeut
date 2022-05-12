@@ -3,12 +3,12 @@ import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-4 py-5 bg-black sm:py-10">
+    <footer className="w-full px-4 py-5 bg-black/10 sm:py-10">
       {/* Container */}
       <h2 className="sr-only">Footer</h2>
       <div className="flex flex-col-reverse sm:flex-row md:justify-between lg:justify-around">
         {/* :SITE NAME & SOCIAL NETWORKS */}
-        <div className="relative flex flex-col items-center justify-center px-5 text-gray-500 mt-14 sm:mt-0">
+        <div className="relative flex flex-col items-center justify-center px-5 text-gray-400 mt-14 sm:mt-0">
           {/* ::Site image */}
           <img
             src="../../public/assets/images/greenade.png"
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 gap-5 text-gray-400">
           {/* ::Navigation */}
           <div className="col-span-2 px-4 pb-0 md:col-span-1 md:py-3">
-            <h3 className="py-1.5 md:py-4 text-center sm:text-left text-xl text-gray-500 font-bold tracking-wide">
+            <h3 className="py-1.5 md:py-4 text-center sm:text-left text-xl text-gray-300 font-bold tracking-wide">
               Navigation
             </h3>
             <nav className="flex justify-around font-medium list-none md:flex-col">
@@ -103,7 +103,7 @@ const Footer = () => {
           </div>
           {/* ::Address */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-gray-500 font-bold tracking-wide">
+            <h3 className="py-1.5 md:py-4 text-xl text-gray-300 font-bold tracking-wide">
               Address
             </h3>
             <a
@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
           {/* ::Email */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-gray-500 font-bold tracking-wide">
+            <h3 className="py-1.5 md:py-4 text-xl text-gray-300 font-bold tracking-wide">
               SQP Company
             </h3>
             <p className="inline-flex justify-center text-sm font-medium text-gray-400 sm:justify-start">
@@ -132,7 +132,7 @@ const Footer = () => {
           </div>
           {/* ::Phone */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-gray-500 font-bold tracking-wide">
+            <h3 className="py-1.5 md:py-4 text-xl text-gray-300 font-bold tracking-wide">
               Phone contact
             </h3>
             <a href="tel:0652651722">
