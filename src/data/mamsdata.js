@@ -1,9 +1,11 @@
 const mamsData = [
   {
     id: 0,
-    name: "RhinoferoceBlanc",
+    name: "White Rhinoferoce",
+    autor: "Created by Treeverse_Wallet",
+    desc: "The rhinoceros is a herbivore. Rhinoceroses have a large horn on the nose. Their horns are not like those of other horned mammals: the rhinoceros' horn is made of keratin packed together very tightly.",
     age: "60 years old",
-    image: "./assets/rhinos/0.png",
+    image: "./assets/rhinos/mainRhino.png",
     price: "26.01 ETH",
   },
   {
