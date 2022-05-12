@@ -4,8 +4,8 @@ import ReactPlayer from "react-player";
 const VideoAboutUs = () => {
   const videoSrc = "../public/assets/global/aboutUs.mp4";
   return (
-    <div className="h-full w-full">
-      <div className="absolute text-white font-bold text-6xl mt-36 ml-20">
+    <div className="w-full h-full">
+      <div className="absolute ml-20 text-6xl font-bold text-white mt-36">
         <h1>Vous êtes le changement,</h1>
         <h2 className="pt-11">Vous êtes le futur,</h2>
         <h2 className="pt-11">Aujourd&apos;hui c&apos;est déjà demain,</h2>

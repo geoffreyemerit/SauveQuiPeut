@@ -1,4 +1,4 @@
-const collection = [
+const collections = [
   {
     id: 1,
     title: "Artic bears",
@@ -25,7 +25,7 @@ const collection = [
   },
   {
     id: 4,
-    title: "Mouse",
+    title: "Mousse",
     subtitle: "SFEPM",
     avgprice: "Prix moyen",
     price: "0.218 ETH",
@@ -33,7 +33,7 @@ const collection = [
   },
   {
     id: 5,
-    title: "Chêne",
+    title: "Chêne-Hifi",
     subtitle: "Natura protection",
     avgprice: "Prix moyen",
     price: "0.148 ETH",
@@ -41,18 +41,18 @@ const collection = [
   },
   {
     id: 6,
-    title: "Cascade",
+    title: "Cascadia",
     subtitle: "Eau france",
     avgprice: "Prix moyen",
-    price: "0.218 ETH",
-    img: "",
+    price: "0.271 ETH",
+    img: "../../public/assets/collections/cascadia.png",
   },
   {
     id: 7,
     title: "The bonne grosse fiat",
     subtitle: "Fiat",
     avgprice: "Prix moyen",
-    price: "0.218 ETH",
+    price: "0.987 ETH",
     img: "../../public/assets/collections/Fiat.png",
   },
   {
@@ -60,9 +60,9 @@ const collection = [
     title: "Le danseur oublié",
     subtitle: "Metropolis",
     avgprice: "Prix moyen",
-    price: "0.218 ETH",
-    img: "../../public/assets/collections/tekto.png",
+    price: "0.780 ETH",
+    img: "../../public/assets/collections/ledream.png",
   },
 ];
 
-export default collection;
+export default collections;
