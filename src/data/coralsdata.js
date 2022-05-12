@@ -65,11 +65,13 @@ const coralsData = [
   },
   {
     id: 8,
-    name: "CorailRose",
+    name: "Pink Corail",
+    autor: "Created by AnaisBreen",
     age: "180 years old",
     image: "./assets/corals/mainCoral.png",
     depth: "18 metters",
     price: "25 ETH",
+    desc: "Corals Club Cafe is a collection of 10,000 corals NFTs. Each NFT is unique and resides on the Ethereum blockchain. Each of your corals will influence the futur of the real coral barrier.",
   },
 ];
 
