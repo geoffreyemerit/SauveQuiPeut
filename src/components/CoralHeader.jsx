@@ -13,7 +13,7 @@ const CoralHeader = () => {
         <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-200 to-white py-3">
           10000 Coraux MINT <br /> 8 disponibles à la vente
         </h2>
-        <div className="w-[33rem] h-[3px] bg-gradient-to-r from-[#73E0A9] to-[#5240f5]"></div>
+        <div className="w-[33rem] h-[3px] bg-gradient-to-r from-[#73E0A9] to-[#5240f5]" />
       </div>
       <div className="pr-4">
         <img
