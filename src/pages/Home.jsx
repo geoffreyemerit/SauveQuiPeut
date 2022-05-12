@@ -1,5 +1,5 @@
 import React from "react";
-import HomeEcoStats from "../components/Home/HomeEcoStats";
+import HomeEcoStats from "../components/HomeEcoStats";
 
 const Home = () => {
   return (
