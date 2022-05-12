@@ -4,13 +4,13 @@ import Collections from "./Collections";
 
 const HomeCollections = () => {
   return (
-    <div className="my-[30vh]">
+    <div className="my-[25vh]">
       <div className="mx-32">
         <h2 className="mb-10 ml-10 text-xl font-bold text-slate-50">
           Les collections
         </h2>
       </div>
-      <div className="flex flex-row flex-wrap px-[10vh] justify-between mx-[25vh] my-[10vh] gap-4">
+      <div className="flex flex-row flex-wrap px-[10vh] justify-between mx-[20vh] my-[10vh] gap-4">
         {collections &&
           collections.map((collection) => (
             <Collections

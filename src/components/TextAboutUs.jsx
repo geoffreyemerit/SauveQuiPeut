@@ -43,9 +43,9 @@ const TextAboutUs = () => {
       </h1>
       <div className="flex h-16 justify-evenly mt-14">
         <img src="./public/assets/global/binanceLogo.png" alt="binance" />
-        <img src="./public/assets/global/osLogo.png" alt="binance" />
-        <img src="./public/assets/global/ssLogo.png" alt="binance" />
-        <img src="./public/assets/global/ethereumLogo.png" alt="binance" />
+        <img src="./public/assets/global/osLogo.png" alt="os" />
+        <img src="./public/assets/global/ssLogo.png" alt="sea sheperd" />
+        <img src="./public/assets/global/ethereumLogo.png" alt="ethereum" />
       </div>
     </div>
   );
