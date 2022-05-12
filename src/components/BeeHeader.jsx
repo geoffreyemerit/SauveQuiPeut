@@ -1,6 +1,6 @@
 import React from "react";
 
-const CoralHeader = () => {
+const BeeHeader = () => {
   return (
     <div className="flex h-screen">
       <div className="pl-12 mt-20">
@@ -8,7 +8,7 @@ const CoralHeader = () => {
           CORAL CLUB CAFE
         </h1>
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-600 to-white py-3">
-          Participer dès maintenant à la préservation de nos fonds marins.
+          Participer dès maintenant à la préservation de nos insectes.
         </h2>
         <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-200 to-white py-3">
           10000 Coraux MINT <br /> 8 disponibles à la vente
@@ -17,8 +17,8 @@ const CoralHeader = () => {
       </div>
       <div className="pr-4">
         <img
-          className="w-[62rem]"
-          src="../public/assets/corals/mainCoral.png"
+          className="w-[40rem]"
+          src="../public/assets/bees/mainBee.png"
           alt="imageCoralBackground"
           width={800}
         />
@@ -27,4 +27,4 @@ const CoralHeader = () => {
   );
 };
 
-export default CoralHeader;
+export default BeeHeader;
