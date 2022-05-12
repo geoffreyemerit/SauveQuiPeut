@@ -6,8 +6,7 @@ const HomeEcoStats = () => {
     <div>
       <div className="flex flex-col w-full text-center">
         <h2 className="text-xl font-bold text-slate-50">
-          {" "}
-          Découvrez nos éco-stats{" "}
+          Découvrez nos éco-stats
         </h2>
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
           The NFT marketplace with everything for everyone
