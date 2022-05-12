@@ -1,7 +1,14 @@
 import React from "react";
+import TextAboutUs from "../components/TextAboutUs";
+import VideoAboutUs from "../components/VideoAboutUs";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <VideoAboutUs />
+      <TextAboutUs />
+    </div>
+  );
 };
 
 export default About;
