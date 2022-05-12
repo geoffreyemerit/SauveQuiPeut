@@ -5,7 +5,7 @@ const TextAboutUs = () => {
     <div className="mb-20">
       <div className="grid grid-cols-3 mx-16 mt-20 mb-24 gap-60">
         <div>
-          <div className="h-1 bg-bg-left"></div>
+          <div className="h-1 bg-bg-left" />
           <h1 className="text-3xl font-bold text-bg-left">Nous sommes</h1>
           <h2 className="text-3xl font-bold text-white">Eco-conçus</h2>
           <p className="text-white">
@@ -16,7 +16,7 @@ const TextAboutUs = () => {
           </p>
         </div>
         <div>
-          <div className="h-1 bg-bg-left"></div>
+          <div className="h-1 bg-bg-left" />
           <h1 className="text-3xl font-bold text-bg-left">Nous sommes</h1>
           <h2 className="text-3xl font-bold text-white">Des petits fous</h2>
           <p className="text-white">
@@ -27,7 +27,7 @@ const TextAboutUs = () => {
           </p>
         </div>
         <div>
-          <div className="h-1 bg-bg-left"></div>
+          <div className="h-1 bg-bg-left" />
           <h1 className="text-3xl font-bold text-bg-left">Nous croyons</h1>
           <h2 className="text-3xl font-bold text-white">Au changement</h2>
           <p className="text-white">

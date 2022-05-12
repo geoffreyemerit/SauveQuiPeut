@@ -1,10 +1,12 @@
 const insectData = [
   {
     id: 0,
-    name: "Abeilles",
+    name: "Queen Bees",
+    autor: "Created by B30898",
     age: "60 days old",
-    image: "./assets/bees/0.png",
+    image: "./assets/bees/mainBee.png",
     price: "26.01 ETH",
+    desc: "The queen is the largest bee in the colony. Her wings only make it half way down her abdomen, whereas the other bees have wings fully covering the abdomen. A queen honey bee is around 20 mm in size.",
   },
   {
     id: 1,
@@ -58,7 +60,7 @@ const insectData = [
   {
     id: 8,
     name: "Quokka",
-    autor: "Created by B30898",
+    autor: "Created by Jimmy",
     age: "10 years old",
     image: "./assets/bees/mainBee.png",
     price: "25 ETH",
