@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import coralsData from "../data/coralsdata";
 import insectData from "../data/insectdata";
 import mamsData from "../data/mamsdata";
@@ -7,6 +8,7 @@ const HurryUp = () => {
   return (
     <div className="flex justify-between items-center h-[25%] w-[75%] m-auto ">
       {coralsData && (
+      <Link to="/exporer/corails">
         <div className="border-solid border-2 border-[#5240f5] rounded-2xl w-[19rem] h-[32rem] ">
           <div className="border-solid bg-black border-2 border-[#73E0A9] rounded-2xl h-[18rem] w-[17rem] m-auto mt-[0.4rem]">
             <img
@@ -29,6 +31,8 @@ const HurryUp = () => {
             </p>
           </div>
         </div>
+</Link>
+
       )}
       {insectData && (
         <div className="border-solid border-2 border-[#5240f5] rounded-2xl w-[19rem] h-[32rem] ">
