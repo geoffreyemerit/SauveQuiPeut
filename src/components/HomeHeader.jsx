@@ -9,13 +9,13 @@ const HomeHeader = () => {
           Sauve Qui Peut
         </h1>
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-600 to-white py-3">
-          Ou comment le numérique et les NFT peuvent être un levier pour
+          Où comment le numérique et les NFT peuvent être un levier pour
           l’environnement
         </h2>
         <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-200 to-white py-3">
           Première plateforme de vente de NFT <br /> à impact écologique positif
         </h2>
-        <div className="flex pt-64">
+        <div className="flex pt-44">
           <img
             src="../public/assets/global/play.png"
             alt="knowMore"
