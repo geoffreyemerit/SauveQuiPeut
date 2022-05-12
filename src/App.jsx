@@ -7,6 +7,7 @@ import Explorer from "./pages/Explorer";
 import EcoStats from "./pages/EcoStats";
 import About from "./pages/About";
 import Connect from "./pages/Connect";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/connect" element={<Connect />} />
         </Routes>
+        <Footer />
       </HashRouter>
     </div>
   );
