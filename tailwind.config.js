@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         homeBg: "url('/public/assets/global/bgmainBg.png')",
+        card: "url('/public/assets/global/cardbg.png')",
       },
       colors: {
         "bg-left": "#73E0A9",
