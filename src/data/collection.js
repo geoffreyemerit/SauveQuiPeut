@@ -1,0 +1,68 @@
+const collection = [
+  {
+    id: 1,
+    title: "Artic bears",
+    subtitle: "By Polar bears international",
+    avgprice: "Prix moyen",
+    price: "0.218 ETH",
+    img: "../../public/assets/collections/articBear.png",
+  },
+  {
+    id: 2,
+    title: "L'aigle impérial",
+    subtitle: "A.N.F.A",
+    avgprice: "Prix moyen",
+    price: "0.107 ETH",
+    img: "../../public/assets/collections/eagle.png",
+  },
+  {
+    id: 3,
+    title: "Gorilla",
+    subtitle: "Gorilla.fr",
+    avgprice: "Prix moyen",
+    price: "0.390 ETH",
+    img: "../../public/assets/collections/gorilla.png",
+  },
+  {
+    id: 4,
+    title: "Mouse",
+    subtitle: "SFEPM",
+    avgprice: "Prix moyen",
+    price: "0.218 ETH",
+    img: "../../public/assets/collections/mouse.png",
+  },
+  {
+    id: 5,
+    title: "Chêne",
+    subtitle: "Natura protection",
+    avgprice: "Prix moyen",
+    price: "0.148 ETH",
+    img: "../../public/assets/collections/Oak.png",
+  },
+  {
+    id: 6,
+    title: "Cascade",
+    subtitle: "Eau france",
+    avgprice: "Prix moyen",
+    price: "0.218 ETH",
+    img: "",
+  },
+  {
+    id: 7,
+    title: "The bonne grosse fiat",
+    subtitle: "Fiat",
+    avgprice: "Prix moyen",
+    price: "0.218 ETH",
+    img: "../../public/assets/collections/Fiat.png",
+  },
+  {
+    id: 8,
+    title: "Le danseur oublié",
+    subtitle: "Metropolis",
+    avgprice: "Prix moyen",
+    price: "0.218 ETH",
+    img: "../../public/assets/collections/tekto.png",
+  },
+];
+
+export default collection;

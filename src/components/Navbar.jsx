@@ -28,7 +28,10 @@ const Navbar = () => {
           <Link className="mr-8 hover:text-gray-200" to="/ecostats">
             Eco Stats
           </Link>
-          <Link className="mr-8 hover:text-gray-200" to="/about">
+          <Link
+            className="mr-8 border-2 border-green-200 rounded-full hover:text-gray-200 px-[2vh] py-[0.5vh]"
+            to="/about"
+          >
             A propos
           </Link>
         </nav>
