@@ -12,6 +12,10 @@ module.exports = {
       backgroundImage: {
         homeBg: "url('/public/assets/global/bgmainBg.png')",
       },
+      colors: {
+        "bg-left": "#73E0A9",
+        "bg-right": "#5B68DF",
+      },
     },
   },
 };

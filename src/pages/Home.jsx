@@ -1,10 +1,11 @@
 import React from "react";
 import Footer from "../components/Footer";
+import HomeHeader from "../components/HomeHeader";
 
 const Home = () => {
   return (
     <div>
-      Home
+      <HomeHeader />
       <Footer />
     </div>
   );
