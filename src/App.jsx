@@ -9,6 +9,8 @@ import About from "./pages/About";
 import Connect from "./pages/Connect";
 import Footer from "./components/Footer";
 import Corals from "./pages/Corals";
+import Bee from "./pages/Bee";
+import Rhinos from "./pages/Rhinos";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route path="/ecostats" element={<EcoStats />} />
           <Route path="/about" element={<About />} />
           <Route path="/connect" element={<Connect />} />
-          <Route path="/exporer/corails" element={<Corals />} />
+          <Route path="/explorer/corails" element={<Corals />} />
+          <Route path="/explorer/bee" element={<Bee />} />
+          <Route path="/explorer/rhinos" element={<Rhinos />} />
         </Routes>
         <Footer />
       </HashRouter>

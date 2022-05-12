@@ -63,7 +63,9 @@ const HurryUp = () => {
             </div>
           </div>
         )}
-        {mamsData && (
+      {mamsData && (
+        <Link to="/explorer/rhinos">
+
           <div className=" border-solid border-2 border-[#5240f5] rounded-2xl w-[19rem] h-[32rem]">
             <div className="border-solid bg-black border-2 border-[#73E0A9] rounded-2xl h-[18rem] w-[17rem] m-auto mt-[0.4rem]">
               <img
@@ -86,8 +88,8 @@ const HurryUp = () => {
               </p>
             </div>
           </div>
-        )}
-      </div>
+        </Link>
+      )}
     </div>
   );
 };
