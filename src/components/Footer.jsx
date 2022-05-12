@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -80,24 +81,24 @@ const Footer = () => {
             </h3>
             <nav className="flex justify-around font-medium list-none md:flex-col">
               <li>
-                <a href="#link" className="hover:text-gray-200">
+                <Link className="mr-8 hover:text-gray-200" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#link" className="hover:text-gray-200">
+                <Link className="mr-8 hover:text-gray-200" to="/explorer">
                   Explorer
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#link" className="hover:text-gray-200">
+                <Link className="mr-8 hover:text-gray-200" to="/ecostats">
                   Eco Stats
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#link" className="hover:text-gray-200">
-                  About
-                </a>
+                <Link className="mr-8 hover:text-gray-200" to="/about">
+                  A propos
+                </Link>
               </li>
             </nav>
           </div>
@@ -112,7 +113,7 @@ const Footer = () => {
               rel="noreferrer"
             >
               <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">
-                666 Paradise Road, 64600 Wild Island ANGLET
+                666 Paradise Road, 64600 Wild Island ECOLOGY LAND
               </p>
             </a>
           </div>

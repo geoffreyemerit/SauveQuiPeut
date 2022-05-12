@@ -6,8 +6,8 @@ const HomeConvictions = () => {
   return (
     <div>
       {/* :DIV TOTALE */}
-      <div className="flex flex-col">
-        <h2 className="ml-20 text-xl font-bold text-slate-50">
+      <div className="flex flex-col m-32">
+        <h2 className="mb-10 ml-10 text-xl font-bold text-slate-50">
           Zoom sur nos convictions
         </h2>
         {/* _______________________________ */}
