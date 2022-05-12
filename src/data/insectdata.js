@@ -58,9 +58,11 @@ const insectData = [
   {
     id: 8,
     name: "Quokka",
+    autor: "Created by B30898",
     age: "10 years old",
     image: "./assets/bees/mainBee.png",
     price: "25 ETH",
+    desc: "The quokka is a small marsupial about the size of a large cat. Like other animals in the macropod family, such as kangaroos and wallabies, the quokka eats grass and small plants, and is mainly nocturnal.",
   },
 ];
 
