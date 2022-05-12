@@ -1,18 +1,27 @@
 import "./App.css";
-// Méthode 1 des images : on importe chaque image
-import dino from "./assets/dinosaur.png";
+import React from "react";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import NavBar from "./components/Navbar";
+import Explorer from "./pages/Explorer";
+import EcoStats from "./pages/EcoStats";
+import About from "./pages/About";
+import Connect from "./pages/Connect";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen text-2xl text-white bg-slate-500 text-shadow-md">
-      <p className="w-2/4 text-center">
-        Ce template est bien configuré pour vos applications front-end avec
-        Vite, Tailwind et Vercel
-      </p>
-      {/* Méthode 1 : on peut donc directement utiliser son nom */}
-      <img width={150} height={150} src={dino} alt="" />
-      {/* Méthode 2 : après création du dossier "public" à la racine, on peut utiliser le chemin relatif */}
-      <img width={150} height={150} src="./assets/trex.png" alt="" />
+    <div className="App">
+      <HashRouter>
+        <NavBar />
+        <Routes>
+          <Route path="*" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/explorer" element={<Explorer />} />
+          <Route path="/ecostats" element={<EcoStats />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/connect" element={<Connect />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
