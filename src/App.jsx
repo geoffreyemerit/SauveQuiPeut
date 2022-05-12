@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="h-screen App bg-homeBg">
+    <div className="App bg-homeBg bg-cover">
       <HashRouter>
         <NavBar />
         <Routes>
