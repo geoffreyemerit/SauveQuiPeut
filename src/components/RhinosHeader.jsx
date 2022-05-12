@@ -1,6 +1,6 @@
 import React from "react";
 
-const CoralHeader = () => {
+const RhinosHeader = () => {
   return (
     <div className="flex h-screen">
       <div className="pl-12 mt-20">
@@ -17,8 +17,8 @@ const CoralHeader = () => {
       </div>
       <div className="pr-4">
         <img
-          className="w-[62rem]"
-          src="../public/assets/corals/mainCoral.png"
+          className="w-[35rem]"
+          src="../public/assets/rhinos/mainRhino.png"
           alt="imageCoralBackground"
           width={800}
         />
@@ -27,4 +27,4 @@ const CoralHeader = () => {
   );
 };
 
-export default CoralHeader;
+export default RhinosHeader;
