@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../components/Footer";
+import HomeEcoStats from "../components/HomeEcoStats";
 
 const Home = () => {
   return (
     <div>
       Home
-      <Footer />
+      <HomeEcoStats />
     </div>
   );
 };
