@@ -5,7 +5,7 @@ const CoralHeader = () => {
     <div className="flex h-screen">
       <div className="pl-12 mt-20">
         <h1 className="font-extrabold text-8xl text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3">
-          CORAL CLUB CAFE
+          CORAL CLUB
         </h1>
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-600 to-white py-3">
           Participer dès maintenant à la préservation de nos fonds marins.

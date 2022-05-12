@@ -6,8 +6,8 @@ const TextAboutUs = () => {
       <div className="grid grid-cols-3 mx-16 mt-20 mb-24 gap-60">
         <div>
           <div className="h-1 bg-bg-left" />
-          <h1 className="text-3xl font-bold text-bg-left">Nous sommes</h1>
-          <h2 className="text-3xl font-bold text-white">Eco-conçus</h2>
+          <h1 className="text-bg-left font-bold text-3xl">Nous sommes</h1>
+          <h2 className="text-white font-bold text-3xl">Eco-conçus</h2>
           <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
             dui euismod, posuere diam in, vestibulum diam. Nunc cursus
@@ -17,8 +17,8 @@ const TextAboutUs = () => {
         </div>
         <div>
           <div className="h-1 bg-bg-left" />
-          <h1 className="text-3xl font-bold text-bg-left">Nous sommes</h1>
-          <h2 className="text-3xl font-bold text-white">Des petits fous</h2>
+          <h1 className="text-bg-left font-bold text-3xl">Nous sommes</h1>
+          <h2 className="text-white font-bold text-3xl">Des petits fous</h2>
           <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
             dui euismod, posuere diam in, vestibulum diam. Nunc cursus
@@ -28,8 +28,8 @@ const TextAboutUs = () => {
         </div>
         <div>
           <div className="h-1 bg-bg-left" />
-          <h1 className="text-3xl font-bold text-bg-left">Nous croyons</h1>
-          <h2 className="text-3xl font-bold text-white">Au changement</h2>
+          <h1 className="text-bg-left font-bold text-3xl">Nous croyons</h1>
+          <h2 className="text-white font-bold text-3xl">Au changement</h2>
           <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
             dui euismod, posuere diam in, vestibulum diam. Nunc cursus
