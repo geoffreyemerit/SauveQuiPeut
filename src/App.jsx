@@ -10,7 +10,7 @@ import Connect from "./pages/Connect";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-homeBg h-screen">
       <HashRouter>
         <NavBar />
         <Routes>
