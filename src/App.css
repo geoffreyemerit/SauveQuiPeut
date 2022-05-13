@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  .flip {
+    transform: scaleY(-1);
+  }
   .bg-carder {
     @apply bg-bottom bg-card;
   }
