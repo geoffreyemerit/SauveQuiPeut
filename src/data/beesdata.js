@@ -4,7 +4,7 @@ const beesData = [
     name: "Sad Bee",
     autor: "Created by dramaqueen",
     age: "60 days old",
-    image: "../../public/assets/bees/0.png",
+    image: "./assets/bees/0.png",
     price: "26.01 ETH",
     desc: "The queen is the largest bee in the colony. Her wings only make it half way down her abdomen, whereas the other bees have wings fully covering the abdomen. A queen honey bee is around 20 mm in size.",
   },
@@ -13,7 +13,7 @@ const beesData = [
     name: "X-Bee",
     age: "2 weeks old",
     autor: "Created by Luna Non Binaire",
-    image: "../../public/assets/bees/1.png",
+    image: "./assets/bees/1.png",
     price: "0.218 ETH",
   },
   {
@@ -21,7 +21,7 @@ const beesData = [
     name: "Tiger Bee",
     age: "1 week old",
     autor: "Created by Breeen",
-    image: "../../public/assets/bees/2.png",
+    image: "./assets/bees/2.png",
     price: "0.998 ETH",
   },
   {
@@ -29,7 +29,7 @@ const beesData = [
     name: "Bee Peace&Love",
     autor: "Created by Geo",
     age: "1 month old",
-    image: "../../public/assets/bees/3.png",
+    image: "./assets/bees/3.png",
     price: "2.60 ETH",
   },
   {
@@ -37,7 +37,7 @@ const beesData = [
     name: "Bee Hercule",
     autor: "Created by Le Q Djatte",
     age: "1 week old",
-    image: "../../public/assets/bees/4.png",
+    image: "./assets/bees/4.png",
     price: "5 ETH",
   },
   {
@@ -45,7 +45,7 @@ const beesData = [
     name: "Bee Prison",
     autor: "Created by Gavinuus",
     age: "10 years old",
-    image: "../../public/assets/bees/5.png",
+    image: "./assets/bees/5.png",
     price: "18.241 ETH",
   },
   {
@@ -53,7 +53,7 @@ const beesData = [
     name: "Bee 3D",
     autor: "Created by Wild Code School",
     age: "7 years old",
-    image: "../../public/assets/bees/6.png",
+    image: "./assets/bees/6.png",
     price: "14.050 ETH",
   },
   {
@@ -61,7 +61,7 @@ const beesData = [
     name: "Fire Bee",
     autor: "Created by Jimmy",
     age: "39 years old",
-    image: "../../public/assets/bees/7.png",
+    image: "./assets/bees/7.png",
     price: "10.200 ETH",
   },
 ];

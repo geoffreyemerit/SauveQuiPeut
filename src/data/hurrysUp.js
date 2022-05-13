@@ -4,7 +4,7 @@ const hurrysUpData = [
     name: "Queen Bee",
     autor: "Created by Beyonce",
     age: "60 days old",
-    image: "../../public/assets/bees/mainBee.png",
+    image: "./assets/bees/mainBee.png",
     price: "26.01 ETH",
     desc: "The queen is the largest bee in the colony. Her wings only make it half way down her abdomen, whereas the other bees have wings fully covering the abdomen. A queen honey bee is around 20 mm in size.",
   },

@@ -2,7 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 
 const VideoAboutUs = () => {
-  const videoSrc = "../public/assets/global/aboutUs.mp4";
+  const videoSrc = "./assets/global/aboutUs.mp4";
   return (
     <div className="w-full h-full">
       <div className="absolute ml-20 text-6xl font-bold text-white mt-36">

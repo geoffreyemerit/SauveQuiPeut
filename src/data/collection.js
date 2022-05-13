@@ -5,7 +5,7 @@ const collections = [
     subtitle: "By Polar bears international",
     avgprice: "Prix moyen",
     price: "0.218 ETH",
-    img: "../../public/assets/collections/articBear.png",
+    img: "./assets/collections/articBear.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const collections = [
     subtitle: "A.N.F.A",
     avgprice: "Prix moyen",
     price: "0.107 ETH",
-    img: "../../public/assets/collections/eagle.png",
+    img: "./assets/collections/eagle.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const collections = [
     subtitle: "Gorilla.fr",
     avgprice: "Prix moyen",
     price: "0.390 ETH",
-    img: "../../public/assets/collections/gorilla.png",
+    img: "./assets/collections/gorilla.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const collections = [
     subtitle: "SFEPM",
     avgprice: "Prix moyen",
     price: "0.218 ETH",
-    img: "../../public/assets/collections/mouse.png",
+    img: "./assets/collections/mouse.png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const collections = [
     subtitle: "Natura protection",
     avgprice: "Prix moyen",
     price: "0.148 ETH",
-    img: "../../public/assets/collections/Oak.png",
+    img: "./assets/collections/Oak.png",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const collections = [
     subtitle: "Eau france",
     avgprice: "Prix moyen",
     price: "0.271 ETH",
-    img: "../../public/assets/collections/cascadia.png",
+    img: "./assets/collections/cascadia.png",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const collections = [
     subtitle: "Fiat",
     avgprice: "Prix moyen",
     price: "0.987 ETH",
-    img: "../../public/assets/collections/Fiat.png",
+    img: "./assets/collections/Fiat.png",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const collections = [
     subtitle: "Metropolis",
     avgprice: "Prix moyen",
     price: "0.780 ETH",
-    img: "../../public/assets/collections/ledream.png",
+    img: "./assets/collections/ledream.png",
   },
 ];
 

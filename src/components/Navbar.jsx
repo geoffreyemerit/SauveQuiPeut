@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* Site logo and Name */}
         <Link to="/">
           <img
-            src="public\assets\global\logoSQP.png"
+            src="./assets/global/logoSQP.png"
             alt="OnEstTousEnsemble"
             className="px-10"
           />
@@ -42,7 +42,7 @@ const Navbar = () => {
             to="/connect"
           >
             <img
-              src="public\assets\global\wallet.png"
+              src="./assets/global/wallet.png"
               alt="wallet"
               className="px-[0.5vh] py-[0.5vh]"
             />
