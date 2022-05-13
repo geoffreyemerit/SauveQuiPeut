@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const AssosTable = ({ image, name, age, env, price }) => {
   console.log(image, name, age, price);
   return (
-    <div className="flex flex-row self-center justify-around w-full overflow-x-auto bg-white shadow-md bg-opacity-30 rounded-3xl">
+    <div className="flex flex-row self-center justify-around w-full overflow-x-auto shadow-md bg-slate-50 rounded-3xl">
       <img
         className="w-full font-bold text-center border-2 h-44 border-slate-900"
         src={image}
