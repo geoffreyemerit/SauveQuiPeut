@@ -11,6 +11,7 @@ import Corals from "./pages/Corals";
 import Bee from "./pages/Bee";
 import Rhinos from "./pages/Rhinos";
 import Activity from "./pages/Activity";
+import Connect from "./pages/Connect";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/explorer/corails" element={<Corals />} />
           <Route path="/explorer/bee" element={<Bee />} />
           <Route path="/explorer/rhinos" element={<Rhinos />} />
+          <Route path="/connect" element={<Connect />} />
         </Routes>
         <Footer />
       </HashRouter>
