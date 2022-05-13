@@ -18,7 +18,7 @@ const RhinosHeader = () => {
       <div className="pr-4">
         <img
           className="w-[35rem]"
-          src="../public/assets/rhinos/mainRhino.png"
+          src="./assets/rhinos/mainRhino.png"
           alt="imageCoralBackground"
           width={800}
         />
