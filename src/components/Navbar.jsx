@@ -46,9 +46,8 @@ const Navbar = () => {
               alt="wallet"
               className="px-[0.5vh] py-[0.5vh]"
             />
-            Connecte ton portefeuille
+            Connect your wallet
           </Link>
-
         </div>
 
         {/* Burger icon standard */}
