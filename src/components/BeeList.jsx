@@ -5,7 +5,7 @@ import BeeCard from "./BeeCard";
 const BeeList = () => {
   return (
     <div className="mb-52">
-      <div className="flex flex-row flex-wrap px-[10vh] justify-between mx-[20vh]  gap-4">
+      <div className="flex flex-row flex-wrap px-[10vh] justify-between mx-[20vh] border-4 border-red-700 box">
         {beeArray &&
           beeArray.map((bee) => (
             <BeeCard

@@ -1,27 +1,32 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const AssosTable = ({ image, name, age, price }) => {
+const AssosTable = ({ image, name, age, env, price }) => {
   console.log(image, name, age, price);
   return (
-    <div>
-      <div className="flex flex-row w-[90%] self-center overflow-x-auto shadow-md sm:rounded-lg">
-        <span>Logos</span>
-        <span>Associations name</span>
-        <span>Creation</span>
-        <span>Category</span>
-        <span>Price</span>
-      </div>
-      <div>
-        <img src={image} alt={name} />
-        <span>{name}</span>
-        <span>{age}</span>
-        <span>{price}</span>
-      </div>
+    <div className="flex flex-row self-center justify-around w-full overflow-x-auto bg-white shadow-md bg-opacity-30 rounded-3xl">
+      <img
+        className="w-full font-bold text-center border-2 h-44 border-slate-900"
+        src={image}
+        alt={name}
+      />
+      <span className="flex items-center justify-center w-full text-xl font-bold text-center border-2 h-44 border-slate-900">
+        {name}
+      </span>
+      <span className="flex items-center justify-center w-full text-xl font-bold text-center border-2 h-44 border-slate-900">
+        {age}
+      </span>
+      <span className="flex items-center justify-center w-full text-xl font-bold text-center border-2 h-44 border-slate-900">
+        {env}
+      </span>
+      <span className="flex items-center justify-center w-full text-xl font-bold text-center border-2 h-44 border-slate-900">
+        {price}
+      </span>
     </div>
   );
 };
 AssosTable.propTypes = {
+  env: PropTypes.string,
   image: PropTypes.string,
   name: PropTypes.string,
   age: PropTypes.string,
@@ -33,6 +38,7 @@ AssosTable.defaultProps = {
   name: "",
   age: "",
   price: "",
+  env: "",
 };
 
 export default AssosTable;
