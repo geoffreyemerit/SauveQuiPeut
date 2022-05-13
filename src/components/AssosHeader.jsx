@@ -18,7 +18,7 @@ const AssosHeader = () => {
       <div className="pr-4">
         <img
           className="w-[40rem] h-[32rem] -ml-10"
-          src="../public/assets/global/ecology.png"
+          src="./assets/global/ecology.png"
           alt="imageCoralBackground"
         />
       </div>

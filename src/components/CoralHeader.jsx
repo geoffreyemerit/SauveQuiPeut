@@ -18,7 +18,7 @@ const CoralHeader = () => {
       <div className="pr-4">
         <img
           className="w-[60rem] h-[45rem]"
-          src="../public/assets/corals/mainCoral.png"
+          src="./assets/corals/mainCoral.png"
           alt="imageCoralBackground"
         />
       </div>

@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="relative flex flex-col items-center justify-center px-5 text-gray-400 mt-14 sm:mt-0">
           {/* ::Site image */}
           <img
-            src="../../public/assets/images/greenade.png"
+            src="./assets/images/greenade.png"
             alt="logo sqp"
             className="w-64 h-64 -mt-5 text-center opacity-50"
           />
