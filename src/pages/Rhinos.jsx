@@ -1,6 +1,6 @@
 import React from "react";
-import RhinosHeader from "../components/RhinosHeader";
 import RhinoList from "../components/RhinoList";
+import RhinosHeader from "../components/RhinosHeader";
 
 const Rhinos = () => {
   return (
