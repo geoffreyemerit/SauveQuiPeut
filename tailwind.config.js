@@ -3,6 +3,11 @@ module.exports = {
   // ...
   theme: {
     extend: {
+      animation: {
+        spinslow: "spin 30s linear infinite",
+        wave: "2s ",
+        spinveryslow: "spin 230s linear infinite",
+      },
       backgroundImage: {
         carnivor: "url('./assets/carnivor.jpg')",
         herbivor: "url('./assets/herbivor.jpg.webp')",

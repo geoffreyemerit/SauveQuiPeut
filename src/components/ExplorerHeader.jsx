@@ -17,7 +17,7 @@ const ExplorerHeader = () => {
       </div>
       <div className="pr-4">
         <img
-          className="w-[70rem] h-[40rem] -mt-10"
+          className="w-[70rem] h-[40rem]  animate-spinveryslow -mt-10"
           src="../public/assets/global/earth.png"
           alt="imageEarthBackground"
         />
