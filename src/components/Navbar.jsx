@@ -23,7 +23,7 @@ const Navbar = () => {
             Explorer
           </Link>
           <Link className="mr-8 hover:text-gray-200" to="/activity">
-            Activité
+            Activity
           </Link>
           <Link className="mr-8 hover:text-gray-200" to="/ecostats">
             Eco Stats
@@ -32,14 +32,14 @@ const Navbar = () => {
             className="mr-8 border-2 border-green-200 rounded-full hover:text-gray-200 px-[2vh] py-[0.5vh]"
             to="/about"
           >
-            A propos
+            About us
           </Link>
         </nav>
         {/* Avatar */}
         <div className="hidden ml-auto mr-4 cursor-pointer sm:inline-flex md:ml-0 md:mr-0">
-          <button
-            type="button"
+          <Link
             className="flex rounded-full px-5 py-2.5 bg-gradient-to-br from-green-400 to-blue-600 text-stone-100"
+            to="/connect"
           >
             <img
               src="public\assets\global\wallet.png"
@@ -47,8 +47,10 @@ const Navbar = () => {
               className="px-[0.5vh] py-[0.5vh]"
             />
             Connecte ton portefeuille
-          </button>
+          </Link>
+
         </div>
+
         {/* Burger icon standard */}
         <button
           type="button"
@@ -85,7 +87,7 @@ const Navbar = () => {
             href="#link"
             className="block px-3 py-2 text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
           >
-            Activité
+            Activity
           </a>
           <a
             href="#link"
@@ -97,7 +99,7 @@ const Navbar = () => {
             href="#link"
             className="block px-3 py-2 text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
           >
-            A propos
+            About us
           </a>
         </div>
       )}

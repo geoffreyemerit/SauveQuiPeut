@@ -13,7 +13,7 @@ const Collections = ({ img, title, price, avg, subtitle }) => {
           />
         </div>
 
-        <div className="w-full mb-3 text-xs text-center text-white bg-opacity-50 rounded-b-2xl pt-[25vh]">
+        <div className="w-full mb-3 text-xs text-center text-white bg-opacity-50 rounded-b-2xl pt-[26vh]">
           <p className="text-sm font-bold">
             {title} <br />
           </p>
