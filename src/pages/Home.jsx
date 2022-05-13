@@ -4,6 +4,7 @@ import HomeEcoStats from "../components/HomeEcoStats";
 import HomeConvictions from "../components/HomeConvictions";
 import HomeCollections from "../components/HomeCollections";
 import HurryUp from "../components/HurryUp";
+import GoToTop from "../components/GoToTop";
 
 const Home = () => {
   console.log("home");
@@ -14,6 +15,7 @@ const Home = () => {
       <HomeCollections />
       <HomeConvictions />
       <HomeEcoStats />
+      <GoToTop />
     </div>
   );
 };
