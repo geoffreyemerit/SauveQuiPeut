@@ -7,7 +7,7 @@ const ExplorerList = () => {
   return (
     <div className="mb-52">
       <select
-        className="text-center text-xl mb-10 ml-16 w-56 h-16 rounded-3xl px-5 py-2.5 bg-gradient-to-br from-green-400 to-blue-600 text-stone-100"
+        className="focus:text-black text-center text-xl mb-10 ml-16 w-56 h-16 rounded-3xl px-5 py-2.5 bg-gradient-to-br from-green-400 to-blue-600 text-stone-100"
         id="mySelect"
         onChange={(e) => setFilterType(e.target.value)}
       >
