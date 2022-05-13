@@ -2,7 +2,7 @@ import React from "react";
 
 const AssosHeader = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex h-[32rem] mb-10">
       <div className="pl-12 mt-20">
         <h1 className="py-3 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-bg-left to-bg-right">
           ASSOCIATION ECOLOGY
@@ -17,7 +17,7 @@ const AssosHeader = () => {
       </div>
       <div className="pr-4">
         <img
-          className="w-[40rem] h-[32rem] -ml-20"
+          className="w-[40rem] h-[32rem] -ml-10"
           src="../public/assets/global/ecology.png"
           alt="imageCoralBackground"
         />
