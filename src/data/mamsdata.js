@@ -1,4 +1,4 @@
-const mamsData = [
+const nftsData = [
   {
     id: 0,
     name: "White Rhinoferoce",
@@ -66,4 +66,4 @@ const mamsData = [
   },
 ];
 
-export default mamsData;
+export default nftsData;
