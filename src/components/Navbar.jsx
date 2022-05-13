@@ -37,18 +37,20 @@ const Navbar = () => {
         </nav>
         {/* Avatar */}
         <div className="hidden ml-auto mr-4 cursor-pointer sm:inline-flex md:ml-0 md:mr-0">
-          <button
-            type="button"
+          <Link
             className="flex rounded-full px-5 py-2.5 bg-gradient-to-br from-green-400 to-blue-600 text-stone-100"
+            to="/connect"
           >
             <img
               src="public\assets\global\wallet.png"
               alt="wallet"
               className="px-[0.5vh] py-[0.5vh]"
             />
-            Connect your wallet
-          </button>
+            Connecte ton portefeuille
+          </Link>
+
         </div>
+
         {/* Burger icon standard */}
         <button
           type="button"
