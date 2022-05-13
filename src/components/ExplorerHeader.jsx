@@ -2,7 +2,7 @@ import React from "react";
 
 const ExplorerHeader = () => {
   return (
-    <div className="flex h-[35rem]">
+    <div className="flex h-[32rem]">
       <div className="pl-12 mt-10">
         <h1 className="py-3 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-bg-left to-bg-right">
           EXPLORER CLUB
@@ -17,7 +17,7 @@ const ExplorerHeader = () => {
       </div>
       <div className="pr-4">
         <img
-          className="w-[70rem] h-[40rem] -mt-16"
+          className="w-[70rem] h-[40rem] -mt-10"
           src="../public/assets/global/earth.png"
           alt="imageEarthBackground"
         />
