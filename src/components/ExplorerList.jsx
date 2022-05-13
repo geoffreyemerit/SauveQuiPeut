@@ -11,7 +11,7 @@ const ExplorerList = () => {
         id="mySelect"
         onChange={(e) => setFilterType(e.target.value)}
       >
-        <option value="">TOUS</option>
+        <option value="">ALL</option>
         <option value="rhinos">RHINOS</option>
         <option value="corals">CORALS</option>
         <option value="bees">BEES</option>

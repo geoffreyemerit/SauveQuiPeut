@@ -8,7 +8,7 @@ const HomeConvictions = () => {
       {/* :DIV TOTALE */}
       <div className="flex flex-col m-32">
         <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3 font-bold text-5xl text-center mb-10">
-          ZOOM SUR NOS CONVICTIONS
+          FOCUS ON OUR BELIEFS
         </h2>
         {/* _______________________________ */}
         {/* :DIV 4 LINER */}
