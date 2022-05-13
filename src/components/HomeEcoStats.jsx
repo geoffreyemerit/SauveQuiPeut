@@ -7,7 +7,7 @@ const HomeEcoStats = () => {
     <div>
       <div className="flex flex-col w-full mb-40 text-center">
         <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3 font-bold text-5xl text-center mb-10">
-          DÉCOUVREZ NOS ÉCO-STATS!
+          DISCOVER OUR ECO-STATS!
         </h2>
         <span className="m-2 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
           The NFT marketplace with everything for everyone
@@ -21,7 +21,7 @@ const HomeEcoStats = () => {
             type="button"
             className="my-10 justify-center w-64 rounded-full px-5 py-2.5 bg-gradient-to-br from-green-400 to-blue-600 text-slate-50"
           >
-            Focus sur les associations
+            FOCUS ON ASSOCIATIONS
           </button>
         </Link>
       </div>

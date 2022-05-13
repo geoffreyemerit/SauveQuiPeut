@@ -9,11 +9,10 @@ const HomeHeader = () => {
           SAUVE QUI PEUT
         </h1>
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-600 to-white py-3">
-          Où comment le numérique et les NFT peuvent être un levier pour
-          l’environnement
+          How digital and NFT can be a leverage for the environment
         </h2>
         <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-200 to-white py-3">
-          Première plateforme de vente de NFT <br /> à impact écologique positif
+          First NFT sales platform with <br /> a positive ecological impact
         </h2>
         <div className="flex pt-44">
           <img
@@ -24,7 +23,7 @@ const HomeHeader = () => {
           />
           <Link className="hover:text-gray-200" to="/ecostats">
             <h4 className="text-sm font-bold text-slate-200 pl-2">
-              En savoir plus sur nos éco-stats!
+              Learn more about our eco-stats!
             </h4>
           </Link>
         </div>

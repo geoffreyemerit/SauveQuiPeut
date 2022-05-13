@@ -13,26 +13,26 @@ const Activity = () => {
       </h1>
       <div className="flex gap-32 py-10">
         <Chart1
-          title1="VISITEURS"
-          title2={"AUJOURD'HUI"}
+          title1="TODAY'S"
+          title2="VISITORS"
           number="3589"
-          subtitle="Répartition horaire"
+          subtitle="Hourly distribution"
         />
         <Chart2
-          title1={"POURCENTAGE D'ETH"}
-          title2="PAR JOURS REVERSÉS"
+          title1="ETH DISTRIBUTED"
+          title2="PER DAYS"
           number="66%"
           subtitle="PowerSpike"
         />
         <Chart3
-          title1="VENTES"
-          title2={"AUJOURD'HUI"}
+          title1="TODAY'S"
+          title2="SALES"
           number="112"
-          subtitle="89 hier"
+          subtitle="89 yesterday"
         />
       </div>
       <Link to="/ecostats">
-        <ButtonContact naming="ENVIE DE PLUS DE STATS BB ?" />
+        <ButtonContact naming="WANNA SEE OTHER STATS?" />
       </Link>
     </div>
   );

@@ -7,7 +7,7 @@ const HomeCollections = () => {
     <div className="my-[25vh]">
       <div>
         <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3 font-bold text-5xl text-center mb-10">
-          LES COLLECTIONS
+          OUR COLLECTIONS
         </h2>
       </div>
       <div className="flex flex-row flex-wrap px-[10vh] justify-between mx-[20vh] my-[10vh] gap-4">
