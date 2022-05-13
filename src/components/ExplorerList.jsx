@@ -13,7 +13,10 @@ const ExplorerList = () => {
       >
         <option value="">TOUS</option>
         <option value="animals">ANIMALS</option>
-        <option value="Alive">Vivant</option>
+        <option value="rhinos">RHINOS</option>
+        <option value="corals">CORALS</option>
+        <option value="bees">BEES</option>
+        <option value="mams">MAMS</option>
       </select>
       <div className="flex flex-row flex-wrap px-[10vh] justify-between gap-4">
         {nftsArray &&
