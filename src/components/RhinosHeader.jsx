@@ -8,10 +8,10 @@ const RhinosHeader = () => {
           RHINOFEROCES CLUB
         </h1>
         <h2 className="py-3 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-600 to-white">
-          Participer dès maintenant à la préservation de nos rhinoféroce.
+          Participate now in the preservation of our rhinos.
         </h2>
         <h2 className="py-3 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-200 to-white">
-          4300 Rhinos MINT <br /> 8 disponibles à la vente
+          4300 Rhinos MINT <br /> 8 available on sale
         </h2>
         <div className="w-[33rem] h-[3px] bg-gradient-to-r from-[#73E0A9] to-[#5240f5]" />
       </div>

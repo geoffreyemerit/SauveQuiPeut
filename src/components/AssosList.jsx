@@ -21,7 +21,7 @@ const AssosList = () => {
             Category
           </span>
           <span className="flex items-center justify-center w-full h-20 font-bold text-center border-2 h-30 border-slate-900">
-            Price
+            ETH back
           </span>
         </div>
         {assosArray &&

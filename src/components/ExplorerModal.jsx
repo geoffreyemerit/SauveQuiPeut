@@ -45,7 +45,7 @@ const ExplorerModal = ({
             type="button"
             className="absolute ml-[40rem] mt-8 font-orb z-[20] font-medium text-slate-50 bg-opacity-40 rounded-md backdrop-blur-[2px] border-2 border-slate-50 text-2xl  bp1:text-[1.5vw] bp2:-mb-[230px] bp2:text-[2.4vw] bp3:text-[4.2vw] box-shadow-2 bg-slate-50 px-6 hover:scale-[1.01]"
           >
-            Acheter ce NFT
+            Buy this NFT
           </button>
         </div>
       </div>

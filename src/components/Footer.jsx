@@ -97,7 +97,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link className="mr-8 hover:text-gray-200" to="/about">
-                  A propos
+                  About Us
                 </Link>
               </li>
             </nav>
@@ -128,7 +128,7 @@ const Footer = () => {
                 name="logos-mail"
                 id="logos-mail"
               />
-              <a href="#email">sauvequipeut@ecologie.fr</a>
+              <a href="#email">sauvequipeut@ecologie.com</a>
             </p>
           </div>
           {/* ::Phone */}
