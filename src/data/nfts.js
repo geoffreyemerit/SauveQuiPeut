@@ -5,6 +5,7 @@ const nft = [
     age: "30 years old",
     image: "./assets/rhinos/1.jpeg",
     price: "0.218 ETH",
+    type: "rhinos",
   },
   {
     name: "Galactic Rhinoferoce",
@@ -12,6 +13,7 @@ const nft = [
     age: "40 years old",
     image: "./assets/rhinos/2.png",
     price: "0.998 ETH",
+    type: "rhinos",
   },
   {
     name: "Warriors Rhinoferoce",
@@ -19,6 +21,7 @@ const nft = [
     age: "100 years old",
     image: "./assets/rhinos/3.jpeg",
     price: "2.60 ETH",
+    type: "rhinos",
   },
   {
     name: "Clown Rhinoferoce",
@@ -26,6 +29,7 @@ const nft = [
     age: "20 years old",
     image: "./assets/rhinos/4.jpeg",
     price: "5 ETH",
+    type: "rhinos",
   },
   {
     name: "Grillzz Rhinoferoce",
@@ -33,6 +37,7 @@ const nft = [
     age: "15 years old",
     image: "./assets/rhinos/5.jpeg",
     price: "18.241 ETH",
+    type: "rhinos",
   },
   {
     name: "Captain Rhinoferoce",
@@ -40,6 +45,7 @@ const nft = [
     age: "7 years old",
     image: "./assets/rhinos/6.jpeg",
     price: "14.050 ETH",
+    type: "rhinos",
   },
   {
     name: "Monocle Rhinoferoce",
@@ -47,6 +53,7 @@ const nft = [
     age: "39 years old",
     image: "./assets/rhinos/7.jpeg",
     price: "10.200 ETH",
+    type: "rhinos",
   },
   {
     name: "King Rhinoferoce",
@@ -54,6 +61,7 @@ const nft = [
     age: "10 years old",
     image: "./assets/rhinos/8.jpeg",
     price: "25 ETH",
+    type: "rhinos",
   },
   {
     name: "Green Coral",
@@ -62,6 +70,7 @@ const nft = [
     image: "../assets/corals/0.png",
     depth: "10 metters",
     price: "26.01 ETH",
+    type: "corals",
   },
   {
     name: "Blue Coral",
@@ -70,6 +79,7 @@ const nft = [
     image: "./assets/corals/1.png",
     depth: "12 metters",
     price: "0.218 ETH",
+    type: "corals",
   },
   {
     name: "Red Coral",
@@ -78,6 +88,7 @@ const nft = [
     image: "./assets/corals/2.png",
     depth: "22 metters",
     price: "0.998 ETH",
+    type: "corals",
   },
   {
     name: "Yellow Coral",
@@ -86,6 +97,7 @@ const nft = [
     image: "./assets/corals/3.png",
     depth: "7 metters",
     price: "2.60 ETH",
+    type: "corals",
   },
   {
     name: "Purple Coral",
@@ -94,6 +106,7 @@ const nft = [
     image: "./assets/corals/4.png",
     depth: "35 metters",
     price: "5 ETH",
+    type: "corals",
   },
   {
     name: "Pink Corail",
@@ -102,6 +115,7 @@ const nft = [
     image: "./assets/corals/7.png",
     depth: "38 metters",
     price: "10.200 ETH",
+    type: "corals",
   },
   {
     name: "Black Coral",
@@ -111,6 +125,7 @@ const nft = [
     depth: "18 metters",
     price: "25 ETH",
     desc: "Corals Club Cafe is a collection of 10,000 corals NFTs. Each NFT is unique and resides on the Ethereum blockchain. Each of your corals will influence the futur of the real coral barrier.",
+    type: "corals",
   },
   {
     name: "Sad Bee",
@@ -119,6 +134,7 @@ const nft = [
     image: "../../public/assets/bees/0.png",
     price: "26.01 ETH",
     desc: "The queen is the largest bee in the colony. Her wings only make it half way down her abdomen, whereas the other bees have wings fully covering the abdomen. A queen honey bee is around 20 mm in size.",
+    type: "bees",
   },
   {
     name: "X-Bee",
@@ -126,6 +142,7 @@ const nft = [
     autor: "Created by Luna Non Binaire",
     image: "../../public/assets/bees/1.png",
     price: "0.218 ETH",
+    type: "bees",
   },
   {
     name: "Tiger Bee",
@@ -133,6 +150,7 @@ const nft = [
     autor: "Created by Breeen",
     image: "../../public/assets/bees/2.png",
     price: "0.998 ETH",
+    type: "bees",
   },
   {
     name: "Bee Peace&Love",
@@ -140,6 +158,7 @@ const nft = [
     age: "1 month old",
     image: "../../public/assets/bees/3.png",
     price: "2.60 ETH",
+    type: "bees",
   },
   {
     name: "Bee Hercule",
@@ -147,6 +166,7 @@ const nft = [
     age: "1 week old",
     image: "../../public/assets/bees/4.png",
     price: "5 ETH",
+    type: "bees",
   },
   {
     name: "Bee Prison",
@@ -154,6 +174,7 @@ const nft = [
     age: "10 years old",
     image: "../../public/assets/bees/5.png",
     price: "18.241 ETH",
+    type: "bees",
   },
   {
     name: "Bee 3D",
@@ -161,6 +182,7 @@ const nft = [
     age: "7 years old",
     image: "../../public/assets/bees/6.png",
     price: "14.050 ETH",
+    type: "bees",
   },
   {
     name: "Fire Bee",
@@ -168,6 +190,7 @@ const nft = [
     age: "39 years old",
     image: "../../public/assets/bees/7.png",
     price: "10.200 ETH",
+    type: "bees",
   },
   {
     name: "White Rhinoferoce",
@@ -176,6 +199,7 @@ const nft = [
     age: "60 years old",
     image: "./assets/mams/0-rhino.jpeg",
     price: "26.01 ETH",
+    type: "rhinos",
   },
   {
     name: "Vulture Africain",
@@ -183,6 +207,7 @@ const nft = [
     age: "30 years old",
     image: "./assets/mams/1-vulture.png",
     price: "0.218 ETH",
+    type: "mams",
   },
   {
     name: "Gorilla Strong",
@@ -190,6 +215,7 @@ const nft = [
     age: "40 years old",
     image: "./assets/mams/2-gorilla.png",
     price: "0.998 ETH",
+    type: "mams",
   },
   {
     name: "Alligator Orenoque",
@@ -197,6 +223,7 @@ const nft = [
     age: "100 years old",
     image: "./assets/mams/3-alligator.png",
     price: "2.60 ETH",
+    type: "mams",
   },
   {
     name: "Cat Andes",
@@ -204,6 +231,7 @@ const nft = [
     age: "20 years old",
     image: "./assets/mams/4-cat.png",
     price: "5 ETH",
+    type: "mams",
   },
   {
     name: "Wolf Ethiopia",
@@ -211,6 +239,7 @@ const nft = [
     age: "15 years old",
     image: "./assets/mams/5-wolf.png",
     price: "18.241 ETH",
+    type: "mams",
   },
   {
     name: "Okapi",
@@ -218,6 +247,7 @@ const nft = [
     age: "7 years old",
     image: "./assets/mams/6-Okapi.jpeg",
     price: "14.050 ETH",
+    type: "mams",
   },
   {
     name: "Ghost Bat",
@@ -225,6 +255,7 @@ const nft = [
     age: "39 years old",
     image: "./assets/mams/7-bat.png",
     price: "10.200 ETH",
+    type: "mams",
   },
   {
     name: "Quokka",
@@ -232,6 +263,7 @@ const nft = [
     age: "10 years old",
     image: "./assets/mams/8-Quokka.png",
     price: "25 ETH",
+    type: "mams",
   },
   {
     name: "Queen Bees",
@@ -240,6 +272,7 @@ const nft = [
     image: "./assets/insects/bee.png",
     price: "26.01 ETH",
     desc: "The queen is the largest bee in the colony. Her wings only make it half way down her abdomen, whereas the other bees have wings fully covering the abdomen. A queen honey bee is around 20 mm in size.",
+    type: "bees",
   },
   {
     name: "Butterfly",
@@ -247,6 +280,7 @@ const nft = [
     age: "2 weeks old",
     image: "./assets/insects/butterfly.png",
     price: "0.218 ETH",
+    type: "insects",
   },
   {
     name: "Dragonfly",
@@ -254,6 +288,7 @@ const nft = [
     age: "1 week old",
     image: "./assets/insects/dragonfly.png",
     price: "0.998 ETH",
+    type: "insects",
   },
   {
     name: "Fly",
@@ -261,6 +296,7 @@ const nft = [
     age: "1 month old",
     image: "./assets/insects/fly.png",
     price: "2.60 ETH",
+    type: "insects",
   },
   {
     name: "Lady Bug",
@@ -268,6 +304,7 @@ const nft = [
     age: "1 week old",
     image: "./assets/insects/lady_bug.png",
     price: "5 ETH",
+    type: "insects",
   },
   {
     name: "Pyrops",
@@ -275,6 +312,7 @@ const nft = [
     age: "10 years old",
     image: "./assets/insects/pyrops.png",
     price: "18.241 ETH",
+    type: "insects",
   },
   {
     name: "Stag Beetle",
@@ -282,6 +320,7 @@ const nft = [
     age: "7 years old",
     image: "./assets/insects/stag_beetle.png",
     price: "14.050 ETH",
+    type: "insects",
   },
   {
     name: "Tiger Moth",
@@ -289,6 +328,7 @@ const nft = [
     age: "39 years old",
     image: "./assets/insects/tiger_moth.png",
     price: "10.200 ETH",
+    type: "insects",
   },
 ];
 
