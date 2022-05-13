@@ -21,6 +21,4 @@ const RhinoList = () => {
   );
 };
 
-//
-
 export default RhinoList;
