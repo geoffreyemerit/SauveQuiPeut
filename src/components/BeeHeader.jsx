@@ -17,7 +17,7 @@ const BeeHeader = () => {
       </div>
       <div className="pr-4">
         <img
-          className="w-[40rem]"
+          className="w-[40rem] ml-[5rem]"
           src="../public/assets/bees/mainBee.png"
           alt="imageCoralBackground"
           width={800}
