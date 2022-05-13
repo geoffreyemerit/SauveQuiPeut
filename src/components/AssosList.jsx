@@ -41,6 +41,4 @@ const AssosList = () => {
   );
 };
 
-//
-
 export default AssosList;

@@ -7,7 +7,7 @@ const Collections = ({ img, title, price, avg, subtitle }) => {
       <div className="flex flex-col items-center justify-around w-full h-full ">
         <div className="flex items-center justify-between w-full px-2">
           <img
-            className="absolute top-0 right-0 w-full cursor-pointer h-[28vh] rounded-t-2xl bg-carder"
+            className="absolute top-0 right-0 w-full cursor-pointer h-[25vh] rounded-t-2xl bg-carder"
             src={img}
             alt="heart"
           />
