@@ -57,7 +57,7 @@ const rhinosData = [
   },
   {
     id: 8,
-    name: "Rhino King",
+    name: "King Rhinoferoce",
     autor: "Created by XXX",
     age: "10 years old",
     image: "./assets/rhinos/8.jpeg",

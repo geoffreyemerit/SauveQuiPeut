@@ -1,7 +1,8 @@
 const coralsData = [
   {
     id: 0,
-    name: "CorailVert",
+    name: "Green Coral",
+    autor: "Created by Green Peace",
     age: "180 years old",
     image: "../assets/corals/0.png",
     depth: "10 metters",
@@ -9,7 +10,8 @@ const coralsData = [
   },
   {
     id: 1,
-    name: "CorailBleu",
+    name: "Blue Coral",
+    autor: "Created by BlueMoon",
     age: "180 years old",
     image: "./assets/corals/1.png",
     depth: "12 metters",
@@ -17,7 +19,8 @@ const coralsData = [
   },
   {
     id: 2,
-    name: "CorailRouge",
+    name: "Red Coral",
+    autor: "Created by Netflix",
     age: "180 years old",
     image: "./assets/corals/2.png",
     depth: "22 metters",
@@ -25,7 +28,8 @@ const coralsData = [
   },
   {
     id: 3,
-    name: "CorailJaune",
+    name: "Yellow Coral",
+    autor: "Created by Century21",
     age: "180 years old",
     image: "./assets/corals/3.png",
     depth: "7 metters",
@@ -33,7 +37,8 @@ const coralsData = [
   },
   {
     id: 4,
-    name: "CorailViolet",
+    name: "Purple Coral",
+    autor: "Created by Violetta",
     age: "180 years old",
     image: "./assets/corals/4.png",
     depth: "35 metters",
@@ -41,23 +46,17 @@ const coralsData = [
   },
   {
     id: 5,
-    name: "CorailBlanc",
+    name: "White Coral",
+    autor: "Created by Paradise",
     age: "180 years old",
     image: "./assets/corals/5.png",
     depth: "5 metters",
     price: "18.241 ETH",
   },
   {
-    id: 6,
-    name: "CorailBrun",
-    age: "180 years old",
-    image: "./assets/corals/6.png",
-    depth: "27 metters",
-    price: "14.050 ETH",
-  },
-  {
     id: 7,
-    name: "CorailNoir",
+    name: "Pink Corail",
+    autor: "Created by Jacquie&Michel",
     age: "180 years old",
     image: "./assets/corals/7.png",
     depth: "38 metters",
@@ -65,8 +64,8 @@ const coralsData = [
   },
   {
     id: 8,
-    name: "Pink Corail",
-    autor: "Created by AnaisBreen",
+    name: "Black Coral",
+    autor: "Created by Nike",
     age: "180 years old",
     image: "./assets/corals/mainCoral.png",
     depth: "18 metters",
