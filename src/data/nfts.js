@@ -5,6 +5,7 @@ const nft = [
     age: "30 years old",
     image: "./assets/rhinos/1.jpeg",
     price: "0.218 ETH",
+    type: "animals",
   },
   {
     name: "Galactic Rhinoferoce",

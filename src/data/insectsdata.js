@@ -14,6 +14,7 @@ const insectsData = [
     age: "2 weeks old",
     image: "./assets/insects/butterfly.png",
     price: "0.218 ETH",
+    type: "animals",
   },
   {
     id: 2,
