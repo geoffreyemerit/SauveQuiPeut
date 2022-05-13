@@ -5,9 +5,9 @@ import hurrysUpData from "../data/hurrysUp";
 const HurryUp = () => {
   return (
     <div>
-      <div className="ml-32 ">
-        <h2 className="ml-10 text-xl font-bold mb-14 text-slate-50">
-          Hurry Up !
+      <div>
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3 font-bold text-5xl text-center mb-10">
+          HURRY UP!
         </h2>
       </div>
       <div className="flex justify-between items-center h-[25%] w-[75%] m-auto ">

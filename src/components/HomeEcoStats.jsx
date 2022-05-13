@@ -6,8 +6,8 @@ const HomeEcoStats = () => {
   return (
     <div>
       <div className="flex flex-col w-full mb-40 text-center">
-        <h2 className="text-xl font-bold text-slate-50">
-          Découvrez nos éco-stats
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3 font-bold text-5xl text-center mb-10">
+          DÉCOUVREZ NOS ÉCO-STATS!
         </h2>
         <span className="m-2 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
           The NFT marketplace with everything for everyone
