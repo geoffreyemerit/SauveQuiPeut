@@ -11,10 +11,15 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@visx/group": "^2.10.0",
+    "@visx/mock-data": "^2.1.2",
+    "@visx/scale": "^2.2.2",
+    "@visx/shape": "^2.10.0",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
+    "react-circular-progressbar": "^2.0.4",
     "react-dom": "^17.0.2",
     "react-player": "^2.10.1",
     "react-router-dom": "^6.3.0",

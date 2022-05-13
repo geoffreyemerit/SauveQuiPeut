@@ -6,7 +6,7 @@ const HomeHeader = () => {
     <div className="flex h-screen">
       <div className="pl-12 mt-20">
         <h1 className="font-extrabold text-8xl text-transparent bg-clip-text bg-gradient-to-br from-bg-left to-bg-right py-3">
-          Sauve Qui Peut
+          SAUVE QUI PEUT
         </h1>
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-slate-600 to-white py-3">
           Où comment le numérique et les NFT peuvent être un levier pour

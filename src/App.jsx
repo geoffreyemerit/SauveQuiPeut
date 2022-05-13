@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Corals from "./pages/Corals";
 import Bee from "./pages/Bee";
 import Rhinos from "./pages/Rhinos";
+import Activity from "./pages/Activity";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/activity" element={<Activity />} />
           <Route path="/explorer" element={<Explorer />} />
           <Route path="/ecostats" element={<EcoStats />} />
           <Route path="/about" element={<About />} />
